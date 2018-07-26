@@ -6,7 +6,8 @@ namespace CSharpDSAlgo
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            SingleDimArray sda = new SingleDimArray();
+            sda.displayMonths();
         }
     }
 }
