@@ -8,6 +8,11 @@ namespace CSharpDSAlgo
         {
             SingleDimArray sda = new SingleDimArray();
             sda.displayMonths();
+
+            MultiDimArray mda = new MultiDimArray();
+            mda.displayProduct();
+
+            
         }
     }
 }
