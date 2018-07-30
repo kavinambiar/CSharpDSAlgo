@@ -5,7 +5,7 @@ using System.Text;
 
 namespace CSharpDSAlgo
 {
-    class SingleDimArray
+    class MonthNames
     {
         string[] months = new string[12];
         

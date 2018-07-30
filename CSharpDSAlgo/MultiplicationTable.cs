@@ -4,7 +4,7 @@ using System.Text;
 
 namespace CSharpDSAlgo
 {
-    class MultiDimArray
+    class MultiplicationTable
     {
         int[,] product = new int[12, 12];
 

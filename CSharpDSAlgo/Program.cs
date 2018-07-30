@@ -6,13 +6,14 @@ namespace CSharpDSAlgo
     {
         static void Main(string[] args)
         {
-            SingleDimArray sda = new SingleDimArray();
-            sda.displayMonths();
+            MonthNames mn = new MonthNames();
+            mn.displayMonths();
 
-            MultiDimArray mda = new MultiDimArray();
-            mda.displayProduct();
+            MultiplicationTable mt = new MultiplicationTable();
+            mt.displayProduct();
 
-            
+            GameMap gm = new GameMap();
+            gm.displayGameMap();
         }
     }
 }
